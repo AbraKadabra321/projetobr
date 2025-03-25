@@ -1,7 +1,7 @@
 /* Estilos Gerais */
 body {
     font-family: 'Poppins', sans-serif;
-    color: #333;
+    color: #ffffff;
     line-height: 1.6;
     padding-top: 76px;
     background-color: #f8f9fa;
@@ -9,18 +9,18 @@ body {
 
 /* Navegação */
 .navbar {
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 15px 0;
 }
 
 .navbar-brand {
-    color: #4a6bdb;
+    color: #c5db4a;
     font-size: 1.4rem;
     transition: all 0.3s ease;
 }
 
 .navbar-brand:hover {
-    color: #3451b2;
+    color: #b23434;
     transform: scale(1.05);
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .menu-item:hover {
-    color: #4a6bdb;
+    color: #c7d2f7;
 }
 
 .menu-item::after {
@@ -42,7 +42,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #4a6bdb;
+    background-color: #b0c3ff;
     transition: width 0.3s ease;
 }
 
@@ -54,7 +54,7 @@ body {
 .hero-section {
     padding: 80px 0 40px;
     background: linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%);
-    border-bottom: 1px solid #e0e6f5;
+    border-bottom: 1px solid #0048ff;
 }
 
 .profile-image-container {
@@ -81,7 +81,7 @@ body {
 
 .profile-info h1 {
     margin-bottom: 15px;
-    color: #2d3748;
+    color: #2e482d;
 }
 
 .badge-container {
@@ -98,7 +98,7 @@ body {
 .highlight-text {
     display: inline-block;
     position: relative;
-    color: #4a6bdb;
+    color: #a0b6ff;
     padding-bottom: 5px;
 }
 
@@ -109,7 +109,7 @@ body {
     height: 3px;
     bottom: 0;
     left: 25%;
-    background-color: #4a6bdb;
+    background-color: #bedb4a;
     border-radius: 2px;
 }
 
@@ -135,14 +135,14 @@ body {
 .card-icon {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #4a6bdb;
+    color: #afc2ff;
 }
 
 .project-card h3 {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #2d3748;
+    color: #482d41;
 }
 
 .project-btn {
@@ -159,7 +159,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #2d3748;
+    background-color: #e3eeff;
     color: #ffffff;
     padding: 50px 0 30px;
     margin-top: 60px;
@@ -184,7 +184,7 @@ footer h3 {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #3a4a61;
+    background-color: #44613a;
     color: #ffffff;
     border-radius: 50%;
     font-size: 1.4rem;
@@ -192,7 +192,7 @@ footer h3 {
 }
 
 .social-icon:hover {
-    background-color: #4a6bdb;
+    background-color: #bbcbff;
     transform: scale(1.1);
 }
 
